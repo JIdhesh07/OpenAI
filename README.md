@@ -39,4 +39,4 @@ cd Backend
 
     Then start the server
 
-nodemon Backend.js
+npm start
