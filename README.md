@@ -6,7 +6,7 @@ OpenAI is tool that is used for OpenAI API to perform  Text generation,summarize
 
 In the project directory, you can run:
 
-.npm start`
+ 
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
@@ -14,46 +14,29 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-.Install all dependencies`
+2. Navigate to the project directory:
+
+cd textai
+
+3. Install all dependencies
 
 npm i
 
-.navigate to project directory
-
-cd backend
-
-. Setting Open AI API key
+4. Setting Open AI API key
 
     In the backend folder, rename .env.example to .env
     Add your API Key inside .env file
 
+5. To run webapp
 
-## Learn More
+npm start
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+6. To start backend server
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    Create a new terminal and change the directory to Backend folder
 
-### Code Splitting
+cd Backend
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+    Then start the server
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+nodemon Backend.js
