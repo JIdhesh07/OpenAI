@@ -29,6 +29,4 @@ This project is a web application that utilizes OpenAI's text generation capabil
 3. View the generated output in the designated area.
 
 ## Clone the repository to your local machine:
-
-frontend: https://github.com/JIdhesh07/OpenAI-frontend
 backend: https://github.com/JIdhesh07/OpenAI-backend
