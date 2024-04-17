@@ -28,5 +28,7 @@ This project is a web application that utilizes OpenAI's text generation capabil
 2. Select the desired action from the dropdown menu (Complete Text, Summarize Text, or Answer Question).
 3. View the generated output in the designated area.
 
-## License:
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+## Clone the repository to your local machine:
+
+frontend: https://github.com/JIdhesh07/OpenAI-frontend
+backend: https://github.com/JIdhesh07/OpenAI-backend
