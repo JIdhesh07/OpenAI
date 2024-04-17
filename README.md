@@ -16,7 +16,7 @@ You may also see any lint errors in the console.
 
 2. Navigate to the project directory:
 
-cd textai
+cd react-4
 
 3. Install all dependencies
 
