@@ -1,42 +1,32 @@
-# OpenAI React App
+# OpenAI Text Generation Application
 
-OpenAI is tool that is used for OpenAI API to perform  Text generation,summarize,and answer the question
+## Overview:
+This project is a web application that utilizes OpenAI's text generation capabilities. It consists of a server-side Express application and a client-side React frontend.
 
-## Available Scripts
+## Technologies Used:
+- Node.js
+- Express.js
+- React
+- Axios
+- OpenAI API
 
-In the project directory, you can run:
+## Server-side Setup Instructions:
+1. Clone the repository.
+2. Navigate to the server directory.
+3. Install dependencies using `npm install`.
+4. Set up environment variables, including the OpenAI API key, either in a `.env` file or directly in the environment.
+5. Run the server using `npm start`.
 
- 1.npm start
+## Client-side Setup Instructions:
+1. Clone the repository.
+2. Navigate to the client directory.
+3. Install dependencies using `npm install`.
+4. Run the React app using `npm start`.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Usage:
+1. Input your text in the provided textarea.
+2. Select the desired action from the dropdown menu (Complete Text, Summarize Text, or Answer Question).
+3. View the generated output in the designated area.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-2. Navigate to the project directory:
-
-cd react-4
-
-3. Install all dependencies
-
-npm i
-
-4. Setting Open AI API key
-
-    In the backend folder, rename .env.example to .env
-    Add your API Key inside .env file
-
-5. To run webapp
-
-npm start
-
-6. To start backend server
-
-    Create a new terminal and change the directory to Backend folder
-
-cd Backend
-
-    Then start the server
-
-npm start
+## License:
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
